@@ -1,0 +1,13 @@
+.table_wrapper {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+}
