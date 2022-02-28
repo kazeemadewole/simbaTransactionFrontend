@@ -1,11 +1,8 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/button-has-type */
-import React, { useState, useContext, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import Message from '../../Components/Message/Message';
-import Loader from '../../Components/Loader/loaderFile';
-import { AuthContext } from '../../Contexts/AuthContext';
+import  { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import classes from './newTransaction.module.css';
 import HeaderMain from '../LandingPage/MainHeader/MainHeader';
 import axios from 'axios';
